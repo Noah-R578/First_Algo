@@ -13,6 +13,6 @@
 - Multi-coin analysis (top 10 cryptocurrencies)
 - API keys in separate config.py file (protected)
 - CryptoCompare for both hourly and daily data
-- Advanced statistical analysis (Hurst exponent, stationarity tests)
+- Advanced statistical analysis (stationarity tests)
 - Comprehensive error handling
 - Professional documentation and setup 
