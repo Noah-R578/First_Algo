@@ -13,19 +13,14 @@ A comprehensive cryptocurrency trading algorithm that analyzes multiple technica
 
 ## Setup
 
-1. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Configure API Keys**:
+1. **Configure API Keys**:
    - Copy `config.py` and add your API keys:
    ```python
    ALPHA_VANTAGE_API_KEY = "your_alpha_vantage_key"
    CRYPTOCOMPARE_API_KEY = "your_cryptocompare_key"
    ```
 
-3. **Run the Algorithm**:
+2. **Run the Algorithm**:
    ```bash
    python algo1.py
    ```
@@ -33,7 +28,6 @@ A comprehensive cryptocurrency trading algorithm that analyzes multiple technica
 ## API Keys Required
 
 - **CryptoCompare**: Free tier with 1,000 requests/day (100,000 with API key)
-- **Alpha Vantage**: Free tier with 25 requests/day (optional, can use CryptoCompare only)
 
 ## How It Works
 
@@ -54,7 +48,6 @@ A comprehensive cryptocurrency trading algorithm that analyzes multiple technica
 
 - `algo1.py`: Main algorithm
 - `config.py`: API keys (not committed to git)
-- `requirements.txt`: Python dependencies
 - `.gitignore`: Excludes sensitive files
 
 ## Disclaimer
