@@ -470,12 +470,12 @@ def find_trade(coin):
     #Generate Trade Signals
     if sum(trade_signals) >= 11 and sum(trade_signals_intraday) >= 1:
         if sum(trade_entry) >= 0.1 or sum(trade_entry_intraday) >= 0.1:
-            print("Buy")
+            print(f"Buy: {coin}")
     elif sum(trade_signals) <= -11 and sum(trade_signals_intraday) <= -1:
         if sum(trade_entry) <= -0.1 or sum(trade_entry_intraday) <= -0.1:
-            print("Sell")
+            print(f"Sell: {coin}")
     else:
-        print("No Trade")
+        print(f"No Trade: {coin}")
 # Top 10 cryptocurrencies by market cap
 top_10_coins = [
     'BTC',   
