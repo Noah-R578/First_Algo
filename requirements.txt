@@ -1,1 +1,9 @@
-packaging==20.9 
+pandas
+numpy
+pycoingecko
+python-binance
+sktime
+kats
+TA-Lib
+statsmodels
+matplotlib 
