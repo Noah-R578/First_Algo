@@ -1,9 +1,0 @@
-pandas
-numpy
-pycoingecko
-python-binance
-sktime
-kats
-TA-Lib
-statsmodels
-matplotlib 
